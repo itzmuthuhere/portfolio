@@ -19,9 +19,9 @@ const Experience = () => {
   const experiences = [
     {
       company: 'HEPL - Cavinkare',
-      position: 'Full Stack Developer',
+      position: 'Junior Software Engineer',
       duration: 'May 2024 - Present',
-      location: 'Chennai, India',
+      location: 'Cuddalore, India',
       type: 'Full-time',
       projects: [
         {
@@ -52,9 +52,9 @@ const Experience = () => {
     },
     {
       company: 'BAssure Solutions',
-      position: 'Software Developer',
+      position: 'Associate Consultant',
       duration: 'Apr 2023 - Apr 2024',
-      location: 'Bangalore, India',
+      location: 'Chennai, India',
       type: 'Full-time',
       projects: [
         {

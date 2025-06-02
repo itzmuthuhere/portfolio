@@ -45,19 +45,19 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/muthu-raja',
+      url: 'https://www.linkedin.com/in/itzmuthuhere',
       color: 'hover:text-blue-600'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/muthu-raja',
+      url: 'https://github.com/itzmuthuhere',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       name: 'LeetCode',
       icon: Code2,
-      url: 'https://leetcode.com/muthu-raja',
+      url: 'https://leetcode.com/itzmuthuhere',
       color: 'hover:text-orange-600'
     }
   ];
@@ -196,9 +196,9 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <span className="text-gray-400 text-sm">
+            {/* <span className="text-gray-400 text-sm">
               Hosted on GitHub Pages
-            </span>
+            </span> */}
             <button
               onClick={scrollToTop}
               className="p-2 bg-primary-600 hover:bg-primary-700 rounded-lg transition-colors duration-200"

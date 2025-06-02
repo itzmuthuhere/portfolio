@@ -5,21 +5,21 @@ const Certifications = () => {
   const certifications = [
     {
       title: 'Spring Security 6 (OAuth2, JWT, Keycloak)',
-      provider: 'Spring Academy',
+      provider: 'Udemy',
       date: '2024',
       description: 'Comprehensive certification covering modern Spring Security implementations including OAuth2, JWT tokens, and Keycloak integration for enterprise applications.',
       skills: ['OAuth2', 'JWT', 'Keycloak', 'Spring Security', 'Authentication', 'Authorization'],
-      link: '#', // Replace with actual certification link
+      link: 'https://www.udemy.com/certificate/UC-5deed7cc-fb8e-4dd9-9c1f-efec268c8ee0/', // Replace with actual certification link
       verified: true,
       badge: '🔐'
     },
     {
       title: 'Microservices with Java & Docker',
-      provider: 'Docker Academy',
+      provider: 'Udemy',
       date: '2024',
       description: 'Advanced certification in building, deploying, and managing microservices architecture using Java Spring Boot and Docker containerization.',
       skills: ['Microservices', 'Docker', 'Spring Boot', 'Container Orchestration', 'DevOps'],
-      link: '#', // Replace with actual certification link
+      link: 'https://www.udemy.com/certificate/UC-79696a7a-d099-4618-8fa9-10da833835e7/', // Replace with actual certification link
       verified: true,
       badge: '🐳'
     }

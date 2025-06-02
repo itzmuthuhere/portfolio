@@ -91,7 +91,7 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-2">
               <a
-                href="https://linkedin.com/in/muthu-raja"
+                href="https://linkedin.com/in/itzmuthuhere"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -99,7 +99,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/muthu-raja"
+                href="https://github.com/itzmuthuhere"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -107,7 +107,7 @@ const Header = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://leetcode.com/muthu-raja"
+                href="https://leetcode.com/itzmuthuhere"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -167,7 +167,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <a
-                    href="https://linkedin.com/in/muthu-raja"
+                    href="https://linkedin.com/in/itzmuthuhere"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -175,7 +175,7 @@ const Header = () => {
                     <Linkedin size={20} />
                   </a>
                   <a
-                    href="https://github.com/muthu-raja"
+                    href="https://github.com/itzmuthuhere"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -183,7 +183,7 @@ const Header = () => {
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://leetcode.com/muthu-raja"
+                    href="https://leetcode.com/itzmuthuhere"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"

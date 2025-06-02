@@ -167,7 +167,7 @@ const Education = () => {
           </h3>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {additionalLearning.map((learning, index) => (
+            {/* {additionalLearning.map((learning, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 50 }}
@@ -201,7 +201,7 @@ const Education = () => {
                   ))}
                 </div>
               </motion.div>
-            ))}
+            ))} */}
           </div>
         </motion.div>
 
