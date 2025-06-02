@@ -12,7 +12,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Download resume from public folder
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/Muthu CV.pdf`;
+    link.href = '/portfolio/Muthu CV.pdf';
     link.download = 'Muthu_Raja_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -167,7 +167,7 @@ const Hero = () => {
               >
                 <div className="w-full h-full rounded-full bg-white dark:bg-dark-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src={`${process.env.PUBLIC_URL}/IMG_5464.png`}
+                    src={`/portfolio/IMG_5464.png`}
                     alt="Profile Picture"
                     className="w-full h-full object-cover rounded-full"
                   />

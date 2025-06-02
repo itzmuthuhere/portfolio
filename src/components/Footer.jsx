@@ -26,7 +26,7 @@ const Footer = () => {
   const handleDownloadResume = () => {
     // Download resume from public folder
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/Muthu CV.pdf`;
+    link.href = '/portfolio/Muthu CV.pdf';
     link.download = 'Muthu_Raja_Resume.pdf';
     document.body.appendChild(link);
     link.click();
