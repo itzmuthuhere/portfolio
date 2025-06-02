@@ -1,0 +1,8 @@
+RESUME PLACEHOLDER
+
+To add your actual resume:
+1. Place your resume PDF file in the public directory
+2. Name it "resume.pdf" 
+3. Update the download links in Hero.jsx and Footer.jsx to point to "/resume.pdf"
+
+The portfolio is currently configured to look for "/resume.pdf" in the public directory.
