@@ -12,7 +12,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Download resume from public folder
     const link = document.createElement('a');
-    link.href = '/Muthu CV.pdf'; // Web path to file in public folder
+    link.href = `${process.env.PUBLIC_URL}/Muthu CV.pdf`;
     link.download = 'Muthu_Raja_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -46,7 +46,7 @@ const Hero = () => {
                   <span className="font-medium text-gray-700 dark:text-gray-300 text-sm">Full Stack Developer</span>
                 </div>
               </motion.div> */}
-              
+
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ const Hero = () => {
                   Muthu Raja
                 </span>
               </motion.h1>
-              
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -71,9 +71,9 @@ const Hero = () => {
                     Java, Spring Boot, React & Cloud Technologies
                   </span>
                 </p>
-                
+
                 <p className="text-lg text-gray-500 dark:text-gray-400 leading-relaxed max-w-2xl">
-                  Passionate full-stack developer with 2+ years of experience building 
+                  Passionate full-stack developer with 2+ years of experience building
                   enterprise-grade applications and modern web solutions.
                 </p>
               </motion.div>
@@ -114,7 +114,7 @@ const Hero = () => {
                 <Download size={18} />
                 <span>Download Resume</span>
               </button>
-              
+
               <button
                 onClick={() => scrollToSection('experience')}
                 className="btn-secondary flex items-center justify-center space-x-2 px-8 py-3"
@@ -155,10 +155,10 @@ const Hero = () => {
           >
             <div className="relative">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -10, 0],
                 }}
-                transition={{ 
+                transition={{
                   duration: 3,
                   repeat: Infinity,
                   ease: "easeInOut"
@@ -166,20 +166,20 @@ const Hero = () => {
                 className="w-80 h-80 rounded-full bg-gradient-to-br from-accent-500 to-accent-600 p-1 shadow-xl"
               >
                 <div className="w-full h-full rounded-full bg-white dark:bg-dark-800 flex items-center justify-center overflow-hidden">
-                  <img 
-                    src="/IMG_5464.png" 
+                  <img
+                    src={`${process.env.PUBLIC_URL}/IMG_5464.png`}
                     alt="Profile Picture"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
               </motion.div>
-              
+
               {/* Floating Tech Icons */}
               <motion.div
-                animate={{ 
+                animate={{
                   rotate: 360,
                 }}
-                transition={{ 
+                transition={{
                   duration: 20,
                   repeat: Infinity,
                   ease: "linear"
@@ -188,12 +188,12 @@ const Hero = () => {
               >
                 <Code className="text-accent-600" size={24} />
               </motion.div>
-              
+
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -15, 0],
                 }}
-                transition={{ 
+                transition={{
                   duration: 4,
                   repeat: Infinity,
                   ease: "easeInOut",
@@ -203,12 +203,12 @@ const Hero = () => {
               >
                 <Database className="text-accent-600" size={24} />
               </motion.div>
-              
+
               <motion.div
-                animate={{ 
+                animate={{
                   x: [0, 10, 0],
                 }}
-                transition={{ 
+                transition={{
                   duration: 5,
                   repeat: Infinity,
                   ease: "easeInOut",
